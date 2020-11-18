@@ -1,0 +1,17 @@
+.date-time{
+    margin: 10px auto;
+    padding: 50px;
+    border: 1px solid rgb(221, 211, 211);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color: rgb(203, 248, 248);
+}
