@@ -5,6 +5,9 @@ import TodoList from './components/TodoList';
 import Blog from './components/Blog';
 import NameForm from './components/NameForm';
 
+import FancyBorder from './components/FancyBorder';
+import Container from './components/Container';
+
 function App() {
   const numbers = ['Khoong', 'Mot', '2', 'Ba', 'Bon', 'Nam', 'Sau'];
   const posts = [
@@ -26,6 +29,11 @@ function App() {
       <TodoList todos={numbers} />
       <Blog posts={posts} />
       <NameForm />
+      <FancyBorder color="yellow">
+        <h1>WelCome</h1>
+        <p>Thank you for visiting our spacecraft!</p>
+      </FancyBorder>
+      <Container sidebar={<NameForm />} content={<FancyBorder><p>FancyBorder element</p></FancyBorder>}></Container>
     </div>
   );
 }
