@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.filterable-product-table{
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px auto;
+  border: 5px solid palegoldenrod;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 10px;
+}
